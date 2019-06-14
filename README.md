@@ -4,8 +4,7 @@
 ---
 # Список лабораторных работ:
 * ## JSIN-001
-  * ### [Задание](https://kodaktor.ru/jsin_001)
-  * ### [Решение](https://kodaktor.ru/jsin_5b935)
+  * ### [Задание](https://kodaktor.ru/jsin_001) - [Решение](https://kodaktor.ru/jsin_5b935)
 * ## IIFE-001
   * ### [Задание](https://kodaktor.ru/g/iife)
   * ### [Решение](https://kodaktor.ru/f38da42)
