@@ -39,3 +39,6 @@
 * ## STARTASK
   * ### [Задание](https://kodaktor.ru/startask)
   * ### [Решение](https://kodaktor.ru/startask_83c10)
+* ## IPS_TASK
+  * ### [Задание](https://kodaktor.ru/g/ips_task)
+  * ### [Решение](ips_task)
