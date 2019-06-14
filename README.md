@@ -6,9 +6,6 @@
 * ## JSIN-001
   * ### [Задание](https://kodaktor.ru/jsin_001)
   * ### [Решение](https://kodaktor.ru/jsin_5b935)
-* ## TERN-001
-  * ### [Задание](https://kodaktor.ru/tern_001)
-  * ### [Решение](https://kodaktor.ru/tern_de76f)
 * ## IIFE-001
   * ### [Задание](https://kodaktor.ru/g/iife)
   * ### [Решение](https://kodaktor.ru/f38da42)
@@ -36,3 +33,9 @@
 * ## FUNC-009
   * ### [Задание](https://kodaktor.ru/func_009)
   * ### [Решение](https://kodaktor.ru/func_49238)
+* ## TERN-001
+  * ### [Задание](https://kodaktor.ru/tern_001)
+  * ### [Решение](https://kodaktor.ru/tern_de76f)
+* ## STARTASK
+  * ### [Задание](https://kodaktor.ru/startask)
+  * ### [Решение](https://kodaktor.ru/startask_83c10)
