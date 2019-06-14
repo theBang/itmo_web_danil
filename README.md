@@ -3,6 +3,8 @@
 # Автор: Демашов Данил, 2019 г.
 ---
 # Список лабораторных работ:
+* ## XMLT-001, XMLT-002
+  ### [Задание](https://kodaktor.ru/g/xml_intro) - [Решение](xmlt)
 * ## XMLT-003
   ### [Задание](https://kodaktor.ru/xmlt_003) - [Решение](https://kodaktor.ru/xmlt_003be)
 * ## JSIN-001
