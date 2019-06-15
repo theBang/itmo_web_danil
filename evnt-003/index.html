@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Кастомные элементы</title><meta charset="utf-8">
+  </head>
+  <body>
+    <h1>Кастомные элементы</h1>
+    <div id="tr"></div>
+    <h2>Данил Демашов</h2>
+    <script>
+      {  
+        class Counter extends HTMLElement { 
+          static get observedAttributes() {
+              return ['title', 'votes'];
+          }
+          constructor() {
+            super();
+            const shadow = this.attachShadow({mode: 'open'});
+            let wrapper = document.createElement('div');
+            wrapper.setAttribute('class','wrapper');
+
+            let titleWrap = document.createElement('h2'); 
+            titleWrap.textContent = this.getAttribute('title');
+            let strWrap = document.createElement('h3');
+            let value = this.getAttribute('votes');
+
+            let stars = [];
+            stars.length = value;
+            stars.fill('⭐️');
+            strWrap.textContent = stars.join('');
+
+            let btnIncr = document.createElement('button');
+            let btnDecr = document.createElement('button');
+            btnIncr.setAttribute('id', 'incr');
+            btnIncr.textContent = '↑';
+            btnDecr.setAttribute('id', 'decr');
+            btnDecr.textContent = '↓';
+
+            shadow.appendChild(wrapper);
+            wrapper.appendChild(titleWrap);
+            wrapper.appendChild(strWrap);
+            wrapper.appendChild(btnIncr);
+            wrapper.appendChild(btnDecr);
+
+            btnIncr.addEventListener('click', () => {
+              value = this.getAttribute('votes');
+              ++value;
+              this.setAttribute('votes', value);                    
+            });
+
+            btnDecr.addEventListener('click', () => {
+              value = this.getAttribute('votes');
+              if(value > 0) {
+                --value;
+                this.setAttribute('votes', value);
+              }
+            });
+          }
+          connectedCallback() {
+            updateCounter(this);
+          }
+          attributeChangedCallback(name, oldValue, newValue) {
+            updateCounter(this);
+          }
+
+        }
+
+        customElements.define('x-cntr', Counter);
+
+        function updateCounter(elem) {
+          const shadow = elem.shadowRoot;
+          shadow.querySelector('h2').textContent = elem.getAttribute('title');
+          let value = elem.getAttribute('votes');
+          let stars = [];
+          stars.length = value;
+          stars.fill('⭐️');
+          shadow.querySelector('h3').textContent = stars.join('');
+        }
+
+        (async () => {
+          const frmws = await (await fetch('https://kodaktor.ru/j/react5b_6cbf2')).json();
+          const body = document.querySelector('#tr');
+          frmws.forEach(it => {
+            let cntr = document.createElement('x-cntr'); 
+            cntr.id = it.id;
+            cntr.setAttribute('title', it.title);
+            cntr.setAttribute('votes', it.votes);
+            body.appendChild(cntr);
+          });
+        })();
+
+      }
+    </script>
+  </body>
+</html>
