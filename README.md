@@ -37,5 +37,5 @@
   ### [Задание](https://kodaktor.ru/evnt_002) - [Решение](https://kodaktor.ru/custom_cbaf6)
 * ## EVENT-003
   ### [Задание](https://kodaktor.ru/evnt_003) - [Решение](https://thebang.github.io/itmo_web_danil/evnt-003) - [Исходный код](evnt-003)
-* ## EVENT-003
+* ## ITER-001
   ### [Задание](https://kodaktor.ru/iter_001) - [Решение](https://kodaktor.ru/iter_c29fd)
