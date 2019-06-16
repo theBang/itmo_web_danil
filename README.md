@@ -21,8 +21,8 @@
 * ## [EVENT-002](https://kodaktor.ru/evnt_002) --- [Решение](https://kodaktor.ru/custom_cbaf6)
 * ## [EVENT-003](https://kodaktor.ru/evnt_003) --- [Решение](https://thebang.github.io/itmo_web_danil/evnt-003) - [Исходный код](evnt-003)
 * ## BABL_002
-  * ### Часть 1: [Задание](https://kodaktor.ru/babl_002) --- [Решение](https://thebang.github.io/itmo_web_danil/babl_002) - [Исходный код](babl_002)
-  * ### Часть 2: [Задание](https://kodaktor.ru/babl_002) --- [Решение](https://kodaktor.ru/bind02032018_7f01f)
+  * ### [Часть 1](https://kodaktor.ru/babl_002) --- [Решение](https://thebang.github.io/itmo_web_danil/babl_002) - [Исходный код](babl_002)
+  * ### [Часть 2](https://kodaktor.ru/babl_002) --- [Решение](https://kodaktor.ru/bind02032018_7f01f)
 * ## [ITER-001](https://kodaktor.ru/iter_001) --- [Решение](https://kodaktor.ru/iter_c29fd)
 * ## [BNDL_001](https://kodaktor.ru/g/bndl_001) --- [Решение](https://thebang.github.io/itmo_web_danil/bndl_001) - [Исходный код](bndl_001)
 * ## [FRMW_001](https://kodaktor.ru/frmw_001) --- [Решение](https://thebang.github.io/itmo_web_danil/frmw_001) - [Исходный код](frmw_001)
