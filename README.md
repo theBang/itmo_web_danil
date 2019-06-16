@@ -4,7 +4,7 @@
 ---
 # Список лабораторных работ:
 * ## [XMLT-001, XMLT-002](https://kodaktor.ru/g/xml_intro) - [Решение](xmlt)
-* ## [XMLT-003](https://kodaktor.ru/xmlt_003) - [Решение](https://kodaktor.ru/xmlt_003be)
+* ## [XMLT-003](https://kodaktor.ru/xmlt_003) - #[Решение](https://kodaktor.ru/xmlt_003be)
 * ## [JSIN-001](https://kodaktor.ru/jsin_001) - [Решение](https://kodaktor.ru/jsin_5b935)
 * ## [IIFE-001](https://kodaktor.ru/g/iife) - [Решение](https://kodaktor.ru/f38da42)
 * ## [FUNC-001](https://kodaktor.ru/func_001) - [Решение](func-001)
