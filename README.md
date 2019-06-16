@@ -52,3 +52,5 @@
   ### [Задание](https://kodaktor.ru/frmw_004) - [Решение](https://thebang.github.io/itmo_web_danil/frmw_004/dist) - [Исходный код](frmw_004)
 * ## FRMW_005
   ### [Задание](https://kodaktor.ru/frmw_005) - [Решение](https://thebang.github.io/itmo_web_danil/frmw_005/dist) - [Исходный код](frmw_005)
+* ## MIXER
+  ### [Задание](https://kodaktor.ru/g/mixer) - [Решение](https://kodaktor.ru/46a1e15_e93dd)
