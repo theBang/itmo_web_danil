@@ -1,4 +1,3 @@
-# [itmo_web_danil(git)](https://github.com/theBang/itmo_web_danil)
 # [itmo_web_danil(git pages)](https://thebang.github.io/itmo_web_danil)
 Лабораторные работы по Web
 # Автор: Демашов Данил, 2019 г.
