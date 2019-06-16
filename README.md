@@ -1,5 +1,5 @@
 # [itmo_web_danil(git pages)](https://thebang.github.io/itmo_web_danil)
-Лабораторные работы по Web
+### Лабораторные работы по Web
 # Автор: Демашов Данил, 2019 г.
 ---
 # Список лабораторных работ:
