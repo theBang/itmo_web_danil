@@ -44,3 +44,5 @@
   ### [Задание](https://kodaktor.ru/iter_001) - [Решение](https://kodaktor.ru/iter_c29fd)
 * ## BNDL_001
   ### [Задание](https://kodaktor.ru/g/bndl_001) - [Решение](https://thebang.github.io/itmo_web_danil/bndl_001) - [Исходный код](bndl_001)
+* ## FRMW_001
+  ### [Задание](https://kodaktor.ru/frmw_001) - [Решение](https://thebang.github.io/itmo_web_danil/frmw_001) - [Исходный код](frmw_001)
