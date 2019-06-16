@@ -42,3 +42,5 @@
   * ### Часть 2: [Задание](https://kodaktor.ru/babl_002) - [Решение](https://kodaktor.ru/bind02032018_7f01f)
 * ## ITER-001
   ### [Задание](https://kodaktor.ru/iter_001) - [Решение](https://kodaktor.ru/iter_c29fd)
+* ## BNDL_001
+  ### [Задание](https://kodaktor.ru/g/bndl_001) - [Решение](https://thebang.github.io/itmo_web_danil/bndl_001) - [Исходный код](bndl_001)
