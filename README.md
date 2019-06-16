@@ -50,4 +50,5 @@
   ### [Задание](https://kodaktor.ru/frmw_002) - [Решение](https://thebang.github.io/itmo_web_danil/frmw_002/dist) - [Исходный код](frmw_002)
 * ## FRMW_004
   ### [Задание](https://kodaktor.ru/frmw_004) - [Решение](https://thebang.github.io/itmo_web_danil/frmw_004/dist) - [Исходный код](frmw_004)
-
+* ## FRMW_005
+  ### [Задание](https://kodaktor.ru/frmw_005) - [Решение](https://thebang.github.io/itmo_web_danil/frmw_005/dist) - [Исходный код](frmw_005)
