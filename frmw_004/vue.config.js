@@ -1,5 +1,5 @@
 module.exports = {
 	publicPath: process.env.NODE_ENV == 'production'
-	? '/react-vue/frmw_004/dist/'
+	? '/itmo_web_danil/frmw_004/dist/'
 	: '/'
 }
