@@ -27,6 +27,7 @@
 * ## [BNDL_001](https://kodaktor.ru/g/bndl_001) --- [Решение](https://thebang.github.io/itmo_web_danil/bndl_001) - [Исходный код](bndl_001)
 * ## [FRMW_001](https://kodaktor.ru/frmw_001) --- [Решение](https://thebang.github.io/itmo_web_danil/frmw_001) - [Исходный код](frmw_001)
 * ## [FRMW_002](https://kodaktor.ru/frmw_002) --- [Решение](https://thebang.github.io/itmo_web_danil/frmw_002/dist) - [Исходный код](frmw_002)
+* ## [FRMW_003](https://kodaktor.ru/frmw_003) --- [Решение](https://thebang.github.io/itmo_web_danil/frmw_003/dist) - [Исходный код](frmw_003)
 * ## [FRMW_004](https://kodaktor.ru/frmw_004) --- [Решение](https://thebang.github.io/itmo_web_danil/frmw_004/dist) - [Исходный код](frmw_004)
 * ## [FRMW_005](https://kodaktor.ru/frmw_005) --- [Решение](https://thebang.github.io/itmo_web_danil/frmw_005/dist) - [Исходный код](frmw_005)
 * ## [MIXER](https://kodaktor.ru/g/mixer) --- [Решение](https://kodaktor.ru/46a1e15_e93dd)
