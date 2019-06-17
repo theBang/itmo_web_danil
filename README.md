@@ -30,4 +30,5 @@
 * ## [FRMW_003](https://kodaktor.ru/frmw_003) --- [Решение](https://thebang.github.io/itmo_web_danil/frmw_003/dist) - [Исходный код](frmw_003)
 * ## [FRMW_004](https://kodaktor.ru/frmw_004) --- [Решение](https://thebang.github.io/itmo_web_danil/frmw_004/dist) - [Исходный код](frmw_004)
 * ## [FRMW_005](https://kodaktor.ru/frmw_005) --- [Решение](https://thebang.github.io/itmo_web_danil/frmw_005/dist) - [Исходный код](frmw_005)
+* ## [FRMW_006](https://kodaktor.ru/frmw_006) --- [Решение](https://thebang.github.io/itmo_web_danil/frmw_006) - [Исходный код](https://ellie-app.com/5QPMGgcQGY7a1)
 * ## [MIXER](https://kodaktor.ru/g/mixer) --- [Решение](https://kodaktor.ru/46a1e15_e93dd)
