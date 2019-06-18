@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Drag&Drop</title>
+    <meta charset="utf-8">
+    <style>
+      h1, h2 {
+        text-align: center;
+      }
+      h3 {
+        text-align: right;
+      }
+      body {
+        font-family: sans-serif;
+      }
+      #cont, .items {
+      	border: 3px solid black; 
+        border-radius: 5px;
+        height: 200px; 
+        width: 90%; 
+        background: #1D7373;
+        margin: 10px auto;
+        padding: 20px;
+      }
+      #cont.highlight_end {
+        background: #5CCCCC;
+      }
+      #cont.highlight_start {
+        background: #009999;
+      }
+      .item {
+      	border: 2px solid black;
+        border-radius: 5px;
+      	height: 160px;
+        background: #33CCCC;
+      	width: 130px;
+        margin: 10px;
+        padding: 10px;
+      	display: inline-block;
+        text-align: center;
+      }
+      .btn {
+        width: 90%; 
+        margin: 10px auto;
+        padding: 20px;
+        text-align: center;
+      }
+      button {
+        height: 40px;
+        width: 300px;
+        font-size: 18pt;
+      } 
+    </style>
+  </head>
+  <body>
+    <h1>CART (Drag&Drop)<h1>
+    <h2>Данил Демашов</h2>
+    <div class="items">
+    </div>
+    <div id="cont"></div>
+    <div class="btn">
+      <h3 id="budget"></h3>
+      <h3 id="sum"></h3>
+      <button>Очистить корзину</button>
+    <div>
+    <script>{ 
+      (async () => {
+        const goods = await (await fetch('https://kodaktor.ru/cart_data.json')).json();
+        let i = 0;
+        for(el in goods) {
+          document.querySelector('.items').innerHTML += `<div id="item_${i}" class="item" data-price="${goods[el]}"><h4>${el}</h4><h5>Стоимость: ${goods[el]}</h5></div>`;
+          ++i;
+        };
+
+        const src = document.querySelectorAll('.item');
+        const rec = document.querySelector('#cont');
+        const start_budget = 1350;
+        let sum = 0;
+
+        document.querySelector('#budget').textContent = `Бюджет: ${start_budget}`;
+        document.querySelector('#sum').textContent = `Использованные средства: ${sum}`;
+
+        src.forEach(el => {
+          el.setAttribute('draggable', true);
+          el.addEventListener('dragstart', e => {
+            rec.classList.add('highlight_start');
+            e.dataTransfer.setData('text/plain', e.target.id);
+          });
+        });
+          
+        rec.addEventListener('dragover', e => {
+          e.preventDefault();
+          rec.classList.remove('highlight_start');
+          rec.classList.add('highlight_end');
+        });
+
+        let basket = [];
+
+        rec.addEventListener('drop', (e, res = document.getElementById(e.dataTransfer.getData('text/plain'))) => {
+          rec.classList.remove('highlight_end');
+          let curren_item;
+          let budget = parseInt((document.querySelector('#budget').textContent).split(' ')[1], 10);     
+          let price = parseInt(res.dataset.price, 10);
+          if (price > budget) {
+            alert('Бюджета недостаточно!');
+          } else {
+            document.querySelector('#budget').textContent = `Бюджет: ${budget - price}`;
+            document.querySelector('#sum').textContent = `Использованные средства: ${sum += price}`;
+          
+            if (!basket.some(v => (v.id == `${res.id}-cont`) ? (curren_item = v, true) : false)) {
+              console.log(res.id);
+              const ordered_item = res.cloneNode(true);
+              ordered_item.id += '-cont';
+              ordered_item.innerHTML += '<h5>x1</h5>';
+              basket.push({id: ordered_item.id, count: 1});
+              return rec.appendChild(ordered_item);
+            } else {
+              ++curren_item.count;
+              let order_children = document.getElementById(curren_item.id).children;
+              order_children[[...order_children].length - 1].textContent = `x${curren_item.count}`;
+              console.log(basket);
+            }
+          }
+        });
+
+        document.querySelector('button').addEventListener('click', () => {
+          rec.innerHTML = '';
+          basket = [];
+          sum = 0;
+          document.querySelector('#budget').textContent = `Бюджет: ${start_budget}`;
+          document.querySelector('#sum').textContent = `Использованные средства: ${sum}`;
+        });
+
+      })();
+    }</script> 
+  </body>
+</html>
