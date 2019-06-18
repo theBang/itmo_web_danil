@@ -3,6 +3,7 @@
 # Автор: Демашов Данил (с)2019
 ---
 # Список лабораторных работ:
+* ## [CART](https://kodaktor.ru/g/cart) --- [Решение](https://thebang.github.io/itmo_web_danil/cart) - [Исходный код](cart)
 * ## [XMLT-001, XMLT-002](https://kodaktor.ru/g/xml_intro) --- [Решение](xmlt)
 * ## [XMLT-003](https://kodaktor.ru/xmlt_003) --- [Решение](https://kodaktor.ru/xmlt_003be)
 * ## [JSIN-001](https://kodaktor.ru/jsin_001) --- [Решение](https://kodaktor.ru/jsin_5b935)
