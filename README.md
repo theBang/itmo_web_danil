@@ -1,6 +1,6 @@
 # [itmo_web_danil(git pages)](https://thebang.github.io/itmo_web_danil)
 ### Лабораторные работы по Web
-# Автор: Демашов Данил, 2019 г.
+# Автор: Демашов Данил (с)2019
 ---
 # Список лабораторных работ:
 * ## [XMLT-001, XMLT-002](https://kodaktor.ru/g/xml_intro) --- [Решение](xmlt)
