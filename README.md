@@ -15,6 +15,7 @@
 * ## [FUNC-005](https://kodaktor.ru/func_005) --- [Решение](https://kodaktor.ru/func_b1a95)
 * ## [FUNC-006](https://kodaktor.ru/func_006) --- [Решение](https://kodaktor.ru/func_20264)
 * ## [FUNC-007](https://kodaktor.ru/func_007) --- [Решение](https://kodaktor.ru/func_4f8aa)
+* ## [FUNC-008](https://kodaktor.ru/func_008) --- [Решение](https://thebang.github.io/itmo_web_danil/func_008) - [Исходный код](func_008)
 * ## [FUNC-009](https://kodaktor.ru/func_009) --- [Решение](https://kodaktor.ru/func_49238)
 * ## [FUNC-010](https://kodaktor.ru/func_010) --- [Решение](https://kodaktor.ru/func_5fb71)
 * ## [TERN-001](https://kodaktor.ru/tern_001) --- [Решение](https://kodaktor.ru/tern_de76f)
