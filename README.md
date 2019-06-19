@@ -19,6 +19,7 @@
 * ## [TERN-001](https://kodaktor.ru/tern_001) --- [Решение](https://kodaktor.ru/tern_de76f)
 * ## [STARTASK](https://kodaktor.ru/startask) --- [Решение](https://kodaktor.ru/startask_83c10)
 * ## [IPS_TASK](https://kodaktor.ru/g/ips_task) --- [Решение](ips_task)
+* ## [ASYNC_TASKS](https://kodaktor.ru/async_tasks) --- [Решение](https://thebang.github.io/itmo_web_danil/async_tasks) - [Исходный код](async_tasks)
 * ## [EVENT-002](https://kodaktor.ru/evnt_002) --- [Решение](https://kodaktor.ru/custom_cbaf6)
 * ## [EVENT-003](https://kodaktor.ru/evnt_003) --- [Решение](https://thebang.github.io/itmo_web_danil/evnt-003) - [Исходный код](evnt-003)
 * ## BABL_002
