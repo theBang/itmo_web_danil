@@ -1,6 +1,5 @@
 <template>
   <div class="color-input">
-    <h3> {{ text }} </h3>
     <input
       type="number" 
       min="0" 
