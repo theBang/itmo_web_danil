@@ -30,9 +30,9 @@
           });
 
           ips_filtered.sort((a, b) => b.count - a.count);
-          document.body.innerHTML += `Кол-во уникальных адресов = ${ips_filtered.length}\n`;
-          document.body.innerHTML += `Кол-во адресов, с которых сайт посещался по одному разу = ${ips_filtered.reduce((acc, ip) => ip.count == 1 ? acc + 1 : acc, 0)}\n`;
-          document.body.innerHTML += `Макс частота посещения = ${ips_filtered[0].count}\n`;
+          document.body.innerHTML += `<h3>Кол-во уникальных адресов = ${ips_filtered.length}</h3>`;
+          document.body.innerHTML += `<h3>Кол-во адресов, с которых сайт посещался по одному разу = ${ips_filtered.reduce((acc, ip) => ip.count == 1 ? acc + 1 : acc, 0)}</h3>`;
+          document.body.innerHTML += `<h3>Макс частота посещения = ${ips_filtered[0].count}</h3>`;
         })();
       }
     </script>
