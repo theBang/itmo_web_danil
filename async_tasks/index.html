@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ASYNC_TASKS</title><meta charset="utf-8">
+  </head>
+  <body>
+    <h1>ASYNC_TASKS</h1>
+    <h2>Данил Демашов</h2>
+    <ol id="values">
+      <li>10</li>
+      <li>20</li>
+      <li>30</li>
+    </ol>
+    <ol id="urls">
+      <li>https://kodaktor.ru/api/m/</li>
+      <li>https://kodaktor.ru/api/MS2/</li>
+      <li>https://kodaktor.ru/api/MS3/</li>
+    </ol>
+    <button>Поехали</button>
+    <script>
+      {
+        let result = '';
+        const values = [...document.querySelector('#values').children].map(v => v.textContent);
+        const URLs = [...document.querySelector('#urls').children].map(v => v.textContent);
+        console.log(values);
+
+        document
+          .querySelector('button')
+          .addEventListener('click',
+          async ({ target: t }) => { 
+            // здесь напишите код, последовательно отправляющий запросы
+            // согласно спецификации kodaktor.ru/async_tasks
+
+            let result = '';
+            for (let i = 0; i < values.length; ++i) {
+            	let request = await fetch(`${URLs[i]}${values[i]}/${result}`).then(x => x.text());
+            	result = new DOMParser().parseFromString(request, 'text/html').querySelector('span').textContent;
+            }
+
+            t.textContent = `Результат: ${result}`;
+          }
+        ); 
+      }
+    </script>
+    
+  </body>
+</html>
