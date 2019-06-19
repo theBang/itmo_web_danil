@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IPS_TASK</title><meta charset="utf-8">
+    <style>
+      body {
+        text-align: center;
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>IPS_TASK</h1>
+    <h2>Данил Демашов</h2>
+    <script>
+      {
+        (async () => {
+          const ips = await (await fetch('https://kodaktor.ru/j/ips')).json();
+          let ips_filtered = [];
+          ips.forEach(ip_obj => {
+            let ip_obj_filtered = ips_filtered.find(i => i.ip == ip_obj.ip);
+            if (ip_obj_filtered == undefined) {
+              ips_filtered.push({ 
+                "ip": ip_obj.ip,
+                "count": 1
+              });
+            } else {
+              ++ip_obj_filtered.count;
+            }
+          });
+
+          ips_filtered.sort((a, b) => b.count - a.count);
+          document.body.innerHTML += `Кол-во уникальных адресов = ${ips_filtered.length}`;
+          document.body.innerHTML += `Кол-во адресов, с которых сайт посещался по одному разу = ${ips_filtered.reduce((acc, ip) => ip.count == 1 ? acc + 1 : acc, 0)}`;
+          document.body.innerHTML += `Макс частота посещения = ${ips_filtered[0].count}`;
+        })();
+      }
+    </script>
+    
+  </body>
+</html>
