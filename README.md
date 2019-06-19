@@ -16,6 +16,7 @@
 * ## [FUNC-006](https://kodaktor.ru/func_006) --- [Решение](https://kodaktor.ru/func_20264)
 * ## [FUNC-007](https://kodaktor.ru/func_007) --- [Решение](https://kodaktor.ru/func_4f8aa)
 * ## [FUNC-009](https://kodaktor.ru/func_009) --- [Решение](https://kodaktor.ru/func_49238)
+* ## [FUNC-010](https://kodaktor.ru/func_010) --- [Решение](https://kodaktor.ru/func_5fb71)
 * ## [TERN-001](https://kodaktor.ru/tern_001) --- [Решение](https://kodaktor.ru/tern_de76f)
 * ## [STARTASK](https://kodaktor.ru/startask) --- [Решение](https://kodaktor.ru/startask_83c10)
 * ## [IPS_TASK](https://kodaktor.ru/g/ips_task) --- [Решение](ips_task)
