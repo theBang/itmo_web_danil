@@ -30,8 +30,6 @@
           async ({ target: t }) => { 
             // здесь напишите код, последовательно отправляющий запросы
             // согласно спецификации kodaktor.ru/async_tasks
-
-            let result = '';
             for (let i = 0; i < values.length; ++i) {
             	let request = await fetch(`${URLs[i]}${values[i]}/${result}`).then(x => x.text());
             	result = new DOMParser().parseFromString(request, 'text/html').querySelector('span').textContent;
