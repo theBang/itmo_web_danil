@@ -1,2 +1,4 @@
 # [IPS_TASK](https://kodaktor.ru/g/ips_task)
-## npm install
+## Откройте консоль
+### npm install
+<script src="./ips_task"></script>
